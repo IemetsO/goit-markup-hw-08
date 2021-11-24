@@ -2,7 +2,8 @@
     display: flex;
     justify-content: center;
   }
-  .social-item {
+  .social-list__item {
+    display: block;
     width: 44px;
     height: 44px;
     margin-right: 10px;
