@@ -827,19 +827,19 @@ header {
 }
 
 .feature-list__icon-vector::before {
-  background-image: url(../images/vector.png);
+  background-image: url(images/vector.png);
 }
 
 .feature-list__icon-clock::before {
-  background-image: url(../images/clock.png);
+  background-image: url(images/clock.png);
 }
 
 .feature-list__icon-diagramm::before {
-  background-image: url(../images/diagramm.png);
+  background-image: url(images/diagramm.png);
 }
 
 .feature-list__icon-astronaut::before {
-  background-image: url(../images/astronaut.png);
+  background-image: url(images/astronaut.png);
 }
 
 .feature-list__title {
