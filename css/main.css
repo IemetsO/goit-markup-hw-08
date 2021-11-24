@@ -295,6 +295,10 @@ img {
   border-color: var(--accent-color);
 }
 
+.link-policy {
+  display: inline;
+}
+
 .modal-form-message::placeholder {
   font-size: 14;
   font-weight: 400;
@@ -320,7 +324,7 @@ img {
   justify-content: center;
   font-size: 14px;
   font-weight: 400;
-  line-height: 1, 7;
+  line-height: 1.7;
   color: #757575;
   margin-bottom: 30px;
 }
@@ -827,19 +831,19 @@ header {
 }
 
 .feature-list__icon-vector::before {
-  background-image: url(images/vector.png);
+  background-image: url(../images/vector.png);
 }
 
 .feature-list__icon-clock::before {
-  background-image: url(images/clock.png);
+  background-image: url(../images/clock.png);
 }
 
 .feature-list__icon-diagramm::before {
-  background-image: url(images/diagramm.png);
+  background-image: url(../images/diagramm.png);
 }
 
 .feature-list__icon-astronaut::before {
-  background-image: url(images/astronaut.png);
+  background-image: url(../images/astronaut.png);
 }
 
 .feature-list__title {
