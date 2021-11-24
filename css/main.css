@@ -971,7 +971,6 @@ header {
 .clients-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
 }
 
 .clients-list {
@@ -980,16 +979,18 @@ header {
   margin: -15px;
 }
 
+.clients__item {
+  margin: 15px;
+}
+
 @media screen and (max-width: 767px) {
   .clients__item {
-    margin: 15px;
     flex-basis: calc((100% - 60px) / 2);
   }
 }
 
 @media screen and (min-width: 768px) {
   .clients__item {
-    margin: 15px;
     flex-basis: calc((100% - 90px) / 3);
   }
 }
@@ -1004,7 +1005,7 @@ header {
   display: block;
   border: 1px solid #AFB1B8;
   height: 92px;
-  width: 210px;
+  width: 100%;
   border-radius: 4px;
   display: flex;
   justify-content: center;
@@ -1014,12 +1015,6 @@ header {
 
 .clients__link:focus, .clients__link:hover {
   border: 1px solid var(--accent-color);
-}
-
-@media screen and (min-width: 1200px) {
-  .clients__link {
-    width: 170px;
-  }
 }
 
 .clients__icon {
