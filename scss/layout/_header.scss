@@ -67,12 +67,14 @@ header {
   opacity: 1;
   visibility: visible;
   pointer-events: all;
+  
 }
 
 .mobile-menu {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  z-index: 1;
 }
 
 .mobile-menu__upper {
